@@ -2,7 +2,7 @@
 ### Frontend Tech Stack
 <p>
 We are using MERN for building this website. Frontend will be developed in React.js.<br>
-MERN means:
+MERN means:<br>
 <b>M-> Mongodb<br>
 E-> Express.js<br>
 R-> React.js<br>
