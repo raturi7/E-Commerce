@@ -1,19 +1,26 @@
-import Dropdown from 'react-bootstrap/Dropdown';
+import React, { useState } from 'react';
 
 function DropDown() {
-  return (
-    <Dropdown>
-      <Dropdown.Toggle id="dropdown-basic">
-        Address
-      </Dropdown.Toggle>
+    const [isOpen, setIsOpen] = useState(false);
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-  );
+    const toggleDropDown = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <>
+            <div className="dropdown">
+                <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" onClick={toggleDropDown} aria-haspopup="true" aria-expanded={isOpen ? "true" : "false"}>
+                    Address
+                </button>
+                <div className={`dropdown-menu${isOpen ? ' show' : ''}`} aria-labelledby="dropdownMenu2">
+                    <button className="dropdown-item" type="button">Address1</button>
+                    <button className="dropdown-item" type="button">Address2</button>
+                    <button className="dropdown-item" type="button">Address3</button>
+                </div>
+            </div>
+        </>
+    );
 }
 
-export default DropDown
+export default DropDown;
