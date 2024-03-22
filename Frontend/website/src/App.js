@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './component/navbar/navbar';
-import Homeie from './component/home/home.jsx';
+import Homeie from './component/home/Homepage.jsx';
 
 function App() {
   return (

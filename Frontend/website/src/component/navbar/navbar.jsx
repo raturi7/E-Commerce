@@ -15,14 +15,14 @@ function navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <form class="form-inline d-flex my-2 my-lg-0 w-75">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <form className="form-inline d-flex my-2 my-lg-0 w-75">
+          <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
          
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <FontAwesomeIcon icon={faMagnifyingGlass} /></button>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <FontAwesomeIcon icon={faMicrophone} /></button>
+          <button className="btn btn-outline-success my-2 my-sm-0" type="submit"> <FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+          <button className="btn btn-outline-success my-2 my-sm-0" type="submit"> <FontAwesomeIcon icon={faMicrophone} /></button>
         </form>
 
-        <div classname
+        <div className
           ="collapse navbar-collapse " id="navbarNav">
           <ul className='navbar-nav'>
             <li className='nav-item '>

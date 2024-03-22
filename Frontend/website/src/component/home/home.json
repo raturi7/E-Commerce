@@ -1,6 +1,6 @@
 {
   "id1": {
-    "image": "../../../assets/home/img1.jpg",
+    "img": "./assets/home/img1.jpg",
     "author": "LUNDEV 1",
     "title": "DESIGN SLIDER 1",
     "topic": "ANIMAL 1",
@@ -10,7 +10,7 @@
   },
 
   "id2": {
-    "image": "../../../assets/home/img2.jpg",
+    "img": "./assets/home/img2.jpg",
     "author": "LUNDEV 2",
     "title": "DESIGN SLIDER 2",
     "topic": "ANIMAL 2",
@@ -20,7 +20,7 @@
   },
 
   "id3": {
-    "image": "../../../assets/home/img3.jpg",
+    "img": "./assets/home/img3.jpg",
     "author": "LUNDEV 3",
     "title": "DESIGN SLIDER 3",
     "topic": "ANIMAL 3",
@@ -30,7 +30,7 @@
   },
 
   "id4": {
-    "image": "../../../assets/home/img4.jpg",
+    "img": "./assets/home/img4.jpg",
     "author": "LUNDEV 4",
     "title": "DESIGN SLIDER 4",
     "topic": "ANIMAL 4",
