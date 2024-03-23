@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faMicrophone, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import DropDown from'../dropDown/DropDown';
 
 function navbar() {
   return (
@@ -9,7 +10,7 @@ function navbar() {
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark p-3'>
         <a className="navbar-brand" href="#">Logo</a>
 
-        {/* add the dropdown option here */}
+        <DropDown/>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
