@@ -1,0 +1,41 @@
+{
+  "id1": {
+    "img": "./assets/home/img1.jpg",
+    "author": "LUNDEV 1",
+    "title": "DESIGN SLIDER 1",
+    "topic": "ANIMAL 1",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+    "name": "Name Slider 1",
+    "descrip": "Description 1" 
+  },
+
+  "id2": {
+    "img": "./assets/home/img2.jpg",
+    "author": "LUNDEV 2",
+    "title": "DESIGN SLIDER 2",
+    "topic": "ANIMAL 2",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+    "name": "Name Slider 2",
+    "descrip": "Description 2"
+  },
+
+  "id3": {
+    "img": "./assets/home/img3.jpg",
+    "author": "LUNDEV 3",
+    "title": "DESIGN SLIDER 3",
+    "topic": "ANIMAL 3",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+    "name": "Name Slider 3",
+    "descrip": "Description 3"
+  },
+
+  "id4": {
+    "img": "./assets/home/img4.jpg",
+    "author": "LUNDEV 4",
+    "title": "DESIGN SLIDER 4",
+    "topic": "ANIMAL 4",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+    "name": "Name Slider 4",
+    "descrip": "Description 4"
+  }
+}

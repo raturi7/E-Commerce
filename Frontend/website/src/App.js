@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './component/navbar/navbar';
 import LoginPage from './component/loginPage/LoginPage';
 import SignupPage from './component/signupPage/SignupPage';
+import Navbar from './component/navbar/navbar';
+import Homepage from './component/home/Homepage.jsx';
+import Card from './component/cards/card.jsx';
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       {/* <Navbar/> */}
       <SignupPage  />
       <LoginPage />
+      <Navbar/>
+      <Homepage/>
+      <Card/>
     </>
   );
 }
