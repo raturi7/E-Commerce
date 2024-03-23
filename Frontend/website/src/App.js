@@ -1,12 +1,13 @@
-import './App.css';
 import Navbar from './component/navbar/navbar';
-import Homeie from './component/home/Homepage.jsx';
+import Homepage from './component/home/Homepage.jsx';
+import Card from './component/cards/card.jsx';
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Homeie/>
+      <Homepage/>
+      <Card/>
     </>
   );
 }

@@ -1,6 +1,8 @@
-import React, { useState , useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from './home.json';
 import './home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function Homepage() {
     const [activeIndex, setActiveIndex] = useState(0); // Tracks the index of the active card
@@ -34,37 +36,49 @@ function Homepage() {
     console.log(activeIndex);
 
     const activeItem = dataArray[activeIndex];
+
     return (
         <div className="carousel">
             <div className="list">
                 <div className="item">
                     <img src={require(`${activeItem.img}`)} alt=" Big" />
-                    <div className="content">
-                        <div className="author">{activeItem.author}</div>
-                        <div className="title">{activeItem.title}</div>
-                        <div className="topic">{activeItem.topic}</div>
-                        <div className="des">{activeItem.description}</div>
+                    {dataArray.map((item, index) => (
+                    <div className={`content ${index === activeIndex ? 'active' : 'inactive'}`} >
+                        <div className="author">{item.author}</div>
+                        <div className="title">{item.title}</div>
+                        <div className="topic">{item.topic}</div>
+                        <div className="des">{item.description}</div>
                         <div className="buttons">
                             <button>SEE MORE</button>
                             <button>SUBSCRIBE</button>
                         </div>
                     </div>
+                    ))}
                 </div>
             </div>
 
-            {/* <div className="thumbnail">
-                <div className="item">
-                    <img src={require(`${activeItem.img}`)} alt=" Small" />
-                    <div className="content">
-                        <div className="title">{activeItem.name}</div>
-                        <div className="description">{activeItem.descrip}</div>
+            <div className="thumbnail">
+                {dataArray.map((item, index) => (
+                    <div key={index} className={`item ${index === activeIndex ? 'active' : 'inactive'}`}>
+                        <img src={require(`./assets/home/img${index + 1}.jpg`)} alt={`small ${index + 1}`} />
+                        <div className="content">
+                            <div className="title">
+                                {item.name}
+                            </div>
+                            <div className="description">
+                                {item.descrip}
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div> */}
+                ))}
+            </div>
+
+
+
 
             <div className="arrows">
-                <button id="prev" onClick={showPrevSlides}></button>
-                <button id="next" onClick={showNextSlides}></button>
+                <button id="prev" onClick={showPrevSlides}><FontAwesomeIcon icon={faArrowLeft} /></button>
+                <button id="next" onClick={showNextSlides}><FontAwesomeIcon icon={faArrowRight} /></button>
             </div>
 
             <div className="time"></div>
