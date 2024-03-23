@@ -70,13 +70,13 @@ margin-left: 15px;
 margin-right: 5px;
 }
 
-.login_btn{
+.signup_btn{
 color: black;
 background-color: #FFC312;
 width: 100px;
 }
 
-.login_btn:hover{
+.signup_btn:hover{
 color: black;
 background-color: white;
 }
