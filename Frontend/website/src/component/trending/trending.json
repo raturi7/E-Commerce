@@ -1,0 +1,35 @@
+{
+    "id1": {
+      "img": "https://i.imgur.com/ckSgzLQ.png",
+      "name": "Dual Sense",
+      "descrip": "DualSense also adds a build-in microphone array, which will enable players to easily chat with friends without a headset..." ,
+      "price": "1500"
+    },
+  
+    "id2": {
+      "img": "https://i.imgur.com/ckSgzLQ.png",
+      "name": "Dual Sense 3.0",
+      "descrip": "DualSense 3.0 also adds a build-in microphone array, which will enable players to easily chat with friends without a headset...",
+      "price": "2500"
+    },
+  
+    "id3": {
+      "img": "https://i.imgur.com/ckSgzLQ.png",
+      "name": "Dual Sense 2.0",
+      "descrip": "DualSense 2.0 also adds a build-in microphone array, which will enable players to easily chat with friends without a headset...",
+      "price": "2000"
+    },
+    "id4": {
+        "img": "https://i.imgur.com/ckSgzLQ.png",
+        "name": "Dual Sense 4.0",
+        "descrip": "DualSense 4.0 also adds a build-in microphone array, which will enable players to easily chat with friends without a headset...",
+        "price": "3000"
+      },
+      "id5": {
+        "img": "https://i.imgur.com/ckSgzLQ.png",
+        "name": "Dual Sense 5.0",
+        "descrip": "DualSense 5.0 also adds a build-in microphone array, which will enable players to easily chat with friends without a headset...",
+        "price": "3000"
+      }
+  }
+  
